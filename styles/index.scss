@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 @import "./variables";
 @import "./helpers";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
@@ -140,7 +145,73 @@ body {
 }
 .blog{
   display: flex;
+  justify-content: space-between;
+  .video{
+    width: 40%;
+    video{
+      width: 100%;
+    }
+  }
+  .blog-right{
+    width: 60%;
+    .blog-right-heading{
+      width: 100%;
+      font-weight: bold;
+      font-size:3rem ;
+    }
+    .blog-right-info{
+      width: 100%;
+      font-size: 1.125rem;
+    }
+  }
 }
 .report{
+  background-color: $primary;
+.report-header{
+}
+.report-img{
+  display: flex;
+  .report-img-container{
+    background-color: #F4F4F4;
+    height: 26.5em;
+    border: 1px solid #02250A;
+    border-radius: 8px;
+    .img{
+      img{
+
+      }
+      
+    }
+    .report-img-caption{
+      display: flex;
+      .caption{
+        font-weight: 500;
+        color: $primary;
+        font-size: 1.125em ;
+      }
+      .date{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5E5E5E;
+      }
+    }
+    .report-txt{
+      width: 17.125em;
+      font-size: 0.9375em;
+      line-height: 1.1344375em;
+      .report-foot{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $primary;
   
+      }
+    }
+  }
+
+}  
 }

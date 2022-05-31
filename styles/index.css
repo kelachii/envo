@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .fw-700 {
   font-weight: 700;
 }
@@ -185,5 +192,83 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .video {
+  width: 40%;
+}
+
+.blog .video video {
+  width: 100%;
+}
+
+.blog .blog-right {
+  width: 60%;
+}
+
+.blog .blog-right .blog-right-heading {
+  width: 100%;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.blog .blog-right .blog-right-info {
+  width: 100%;
+  font-size: 1.125rem;
+}
+
+.report {
+  background-color: #02250A;
+}
+
+.report .report-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.report .report-img .report-img-container {
+  background-color: #F4F4F4;
+  height: 26.5em;
+  border: 1px solid #02250A;
+  border-radius: 8px;
+}
+
+.report .report-img .report-img-container .report-img-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.report .report-img .report-img-container .report-img-caption .caption {
+  font-weight: 500;
+  color: #02250A;
+  font-size: 1.125em;
+}
+
+.report .report-img .report-img-container .report-img-caption .date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5E5E5E;
+}
+
+.report .report-img .report-img-container .report-txt {
+  width: 17.125em;
+  font-size: 0.9375em;
+  line-height: 1.1344375em;
+}
+
+.report .report-img .report-img-container .report-txt .report-foot {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #02250A;
 }
 /*# sourceMappingURL=index.css.map */
