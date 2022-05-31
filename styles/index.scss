@@ -171,6 +171,7 @@ body {
 }
 .report-img{
   display: flex;
+  justify-content: space-around;
   .report-img-container{
     background-color: #F4F4F4;
     height: 26.5em;
@@ -179,8 +180,7 @@ body {
     .img{
       img{
 
-      }
-      
+      }  
     }
     .report-img-caption{
       display: flex;
