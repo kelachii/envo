@@ -172,43 +172,46 @@ body {
     &-info {
       width: 35.75rem;
       font-size: 1.125rem;
+      button{
+        margin-top: 3.0625rem;
+      }
     }
   }
 }
 
 .report {
+  position: relative;
   background-color: $primary;
   width: 100%;
+  height: 50.5625rem;
 
   &-header {
     width: 21.875rem;
     height: 4.8125rem;
+    margin-bottom: 4rem;
+    padding-top: 3.5rem;
   }
-
-  // &-media {
-  //   width: 100%;
-  // }
 
   &-img {
     display: flex;
-    justify-content: space-around;
 
     .report_img {
-      background-color: #F4F4F4;
       height: 26.5rem;
-      width: 100%;
-      margin-inline: 2.25rem;
-      border: 1px solid #02250A;
-      border-radius: 8px;
+      background-color: #F4F4F4;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      justify-content: space-between;
+      margin-inline: 0.25rem;
 
       .img {
         img {
-          width: 276px;
+          width: 17.25rem;
         }
       }
 
       .report-img-caption {
         display: flex;
+        
 
         .caption {
           font-weight: 500;
@@ -221,6 +224,8 @@ body {
           font-size: 14px;
           line-height: 17px;
           color: #5E5E5E;
+          text-align: center;
+          justify-content: center;
         }
       }
 
@@ -228,6 +233,7 @@ body {
         width: 17.125rem;
         font-size: 0.9375rem;
         line-height: 1.1344375rem;
+        height: 5.375rem;
 
         .report-foot {
           font-size: 16px;
@@ -244,15 +250,17 @@ body {
 
   }
 
+
   .case {
     position: absolute;
-    right: 40%;
+    left: 42%;
+    margin-top: 3.9375rem;
   }
 }
 
 .view {
   width: 100%;
-
+  margin-bottom: 9.5rem;
   .view-header {
     width: 44.0625rem;
 
@@ -281,6 +289,8 @@ footer {
   .footer {
     color: #ffff;
     font-size: 1rem;
+    text-align: center;
+    padding-top: 2.6875rem;
 
     span {
       font-weight: 900;
