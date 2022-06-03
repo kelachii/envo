@@ -222,11 +222,13 @@ body {
 
         .date {
           font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
+          font-size: 0.875em;
+          height: 1.0625rem;
+          width: 4.5625rem;
           color: #5E5E5E;
-          text-align: center;
-          justify-content: center;
+          position: relative;
+          top: 0.4rem;
+          left: 1.6875rem;
         }
       }
 
@@ -237,13 +239,12 @@ body {
         height: 5.375rem;
 
         .report-foot {
-          font-size: 16px;
+          font-size: 1em;
           font-weight: 500;
-          line-height: 19px;
+          height: 1.1875rem;
           letter-spacing: 0rem;
           text-align: left;
           color: $primary;
-
         }
       }
 
